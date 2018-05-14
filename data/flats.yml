@@ -1,0 +1,25 @@
+# data/flats.yml
+martinlnor:
+  name: "Mulliez's home"
+  description: "Norauto's headquarters"
+  city_name: "Lesquin, France"
+  city_slug: "lesquin"
+  wifi: false
+  rating: 4
+  rooms: 4
+chaudard:
+  name: "Rocco's home"
+  description: Come here and you will stay with me
+  city_name: "Mons, Belgium"
+  city_slug: "brussels"
+  wifi: true
+  rating: 3
+  rooms: 3
+geoffroymart:
+  name: Geoffroy's home
+  description: Boisnheur's place
+  city_name: "Lille, France"
+  city_slug: "lille"
+  wifi: true
+  rating: 5
+  rooms: 2

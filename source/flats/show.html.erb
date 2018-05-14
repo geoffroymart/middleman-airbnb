@@ -1,0 +1,28 @@
+<!-- source/flats/show.html.erb -->
+
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- Inject flat data in template -->
+<div class= "container-show">
+  <div class= "banner-show">
+    <%= image_tag "https://kitt.lewagon.com/placeholder/cities/paris", class: "img-banner" %>
+  </div>
+  <div class= "infos-show">
+    <div class= "row">
+      <div class= "col-xs-12 col-sm-6">
+        <div class="infos-flat-owner text-center">
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "avatar-show" %>
+          <p><%= flat.name %></p>
+        </div>
+      </div>
+      <div class= "col-xs-12 col-sm-6">
+        <div class= "infos-flat">
+          <h3><%= flat.description %></h3>
+          <p><%= flat.city_name %></p>
+          <p><%="Number of rooms: #{flat.rooms}"%></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
